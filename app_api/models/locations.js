@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const openingTimeSchema = new mongoose.Schema({
    days: {
      type: String,
